@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+    width:100vw;
+    font-family: 'Archivo Black', sans-serif;
+    /* font-weight: 200; */
+    color:rgb(216, 215, 215);
+}
+
+
+nav{
+    height:10%;
+    background-color: black;
+    display: flex;
+}
+
+.logo{
+    width:18%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 100%;
+    margin-left:50%;
+    
+}
+
+.links{
+    width:82%;
+    /* background-color: red; */
+    margin-left: 10%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.links a{
+    text-decoration: none;
+    color:white;
+}
+
+h1{
+    font-weight: bolder;
+    color:white;
+    text-align: center;
+}
+
+.main{
+    background-color:  blue;
+    height:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.left {
+    width:40%;
+    height:100%;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    width:60%;
+    height:100%;
+    background-image: url("./images/menbackground.jpg");
+    background-size:cover;
+}
+
+.box{
+    width:80%;
+    height:70%;
+    background-color:  rgba(48,48,48,255);
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.box-text{
+    margin:12%;
+
+}
+
+.box-text button {
+    border: 2px solid black;
+    background-color: transparent;
+    color:  white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: white;
+    margin-top:15px;
+}
+
+.box-text button:hover{
+    background-color: darkblue;;
+}
+
+
+.box p {
+    color:rgba(193, 184, 184, 0.625);
+    font-size: 20px;
+}
+
+.box h1{
+    margin:0;
+}

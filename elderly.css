@@ -1,0 +1,125 @@
+body {
+    margin:0;
+    padding:0;
+    height:100vh;
+    width:100vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color:#3D64B5 ;
+    overflow-x: hidden;  
+  
+}
+
+
+.container{
+    width:100%;
+    height:100%;
+    background-color: rgb(233, 233, 233);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background-color: white;
+    width: 70%;
+    height:100%;
+}
+
+nav{
+    height:15%;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: center;
+    border-bottom:1px solid rgb(187, 187, 187);
+
+}
+
+.logo{
+    /* background-color: blue; */
+    height:15vh;
+    width:30%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    height:50%;
+}
+
+.links{
+    width:70%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:end;
+    margin-bottom:2%;
+
+}
+
+.links h2{
+    margin:0;
+}
+
+.links a{
+    text-decoration: none;
+    color:#3D64B5 ;
+}
+
+.content{
+    display:flex;
+    padding:2%;
+}
+
+.left{
+    width:70%;
+    height:fit-content;
+    padding-right:5%;
+    /* background-color: red; */
+}
+
+.right{
+    width:30%;
+    /* background-color: blue; */
+    color:grey;
+}
+
+.right h3{
+    color:black;
+}
+
+.post{
+    border-bottom:1px solid rgb(187, 187, 187);
+}
+
+.post p{
+    color:grey;
+
+}
+
+.post h2{
+    cursor:pointer;
+}
+
+.post a{
+    color:#3D64B5;
+    cursor: pointer;
+}
+
+input{
+    padding:5%;
+}
+
+.subscribe button{
+    padding:5%;
+    background-color: #3D64B5;
+    color:white;
+    cursor: pointer;
+}
+
+.recentpost{
+    margin-bottom:5%;
+    border-bottom:1px solid rgb(187, 187, 187);
+    padding-bottom:5%;
+    cursor:pointer;
+}
